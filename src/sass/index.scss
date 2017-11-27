@@ -1,0 +1,37 @@
+@import 'normalize';
+@import "./font-awesome/font-awesome";
+@import 'variables';
+@import 'fonts';
+@import './components/header';
+@import './components/footer';
+
+
+html {
+    font-size: 10px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;  
+}
+
+.container {
+    position: relative;
+    margin: 0 auto;
+    max-width: 1050px;
+    padding: 2rem 1.5rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    outline: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
