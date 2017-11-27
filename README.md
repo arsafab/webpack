@@ -1,2 +1,7 @@
 # webpack
-Scss, js, html, babel
+
+* babel
+* es-lint airbnb
+* scss
+* html 
+* js    
