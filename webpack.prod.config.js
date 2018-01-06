@@ -16,12 +16,6 @@ const IndexHtml = new HtmlWebpackPlugin({
     inject: 'body',
 });
 
-const GameHtml = new HtmlWebpackPlugin({
-    filename: './game.html',
-    template: path.resolve(__dirname, './src/game.html'),
-    inject: 'body',
-});
-
 const config = {
     entry: {
         main: './src/js/index.js',
@@ -79,7 +73,6 @@ const config = {
     plugins: [
         new CleanWebpackPlugin(['./public']),
         IndexHtml,
-        GameHtml,
         extractSass,
         new UglifyJsPlugin(),
         new ScriptExtHtmlWebpackPlugin({
