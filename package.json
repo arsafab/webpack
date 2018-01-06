@@ -1,7 +1,7 @@
 {
-  "name": "meteora",
+  "name": "project_name",
   "version": "1.0.0",
-  "description": "game on canvas",
+  "description": "project",
   "main": "index.js",
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/rolling-scopes-school/arsafab-front-end-course.git"
+    "url": "git+ssh://git@github.com/your_url"
   },
   "author": "arsafab",
   "license": "ISC",

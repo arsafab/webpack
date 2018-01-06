@@ -19,7 +19,7 @@ const IndexHtml = new HtmlWebpackPlugin({
 
 const config = {
     entry: {
-        main: './src/js/index.js',
+        main: './src/index.js',
     },
 
     output: {
@@ -73,7 +73,7 @@ const config = {
     devServer: {
         contentBase: path.join(__dirname, 'public'),
         compress: true,
-        port: 9000,
+        port: 8080,
     },
 };
 

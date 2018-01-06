@@ -1,9 +1,6 @@
-@import 'normalize';
-@import "./font-awesome/font-awesome";
-@import 'variables';
-@import 'fonts';
-@import './components/header';
-@import './components/footer';
+@import './sass/normalize';
+@import './sass/variables';
+@import './sass/fonts';
 
 
 html {

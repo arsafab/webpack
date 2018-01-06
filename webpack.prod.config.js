@@ -18,7 +18,7 @@ const IndexHtml = new HtmlWebpackPlugin({
 
 const config = {
     entry: {
-        main: './src/js/index.js',
+        main: './src/index.js',
     },
 
     output: {
@@ -59,13 +59,13 @@ const config = {
             test: /\.(png|svg|jpg|gif)$/,
             loader: 'file-loader',
             options: {
-              name: '[name].[ext]',
+              name: 'images/[name].[ext]',
             },
         }, {
             test: /\.(ttf|eot|woff|woff2)$/,
             loader: 'file-loader',
             options: {
-              name: '[name].[ext]',
+              name: 'fonts/[name].[ext]',
             },
         }],
     },
