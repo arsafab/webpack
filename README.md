@@ -1,7 +1,17 @@
-### "npm run build" to build the project
-### "npm start" to run in dev environment
+### To run in dev environment
 
-# webpack us:
+```
+npm install
+npm start
+```
+
+### To build the project
+
+```
+npm run build
+```
+
+# webpack use:
 
 * babel
 * es-lint airbnb
